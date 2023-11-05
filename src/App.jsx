@@ -1,17 +1,15 @@
 // import {useState} from 'react'
-import CardMovie from './film-component/card'
 // import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 // import * as icon from '@fortawesome/free-solid-svg-icons'
-// import ListBoard from './todo-list/list-board'
 
+import CobaRedux from "./coba-redux/melihat-kerja-rendreing";
 
-function App() {
-
-    return (
-        <>
-        <CardMovie />
-        </>
-    )
+const App = () => {
+  
+  return (<>
+    <CobaRedux/> 
+  </>)
 }
 
-export default App
+
+export default App;

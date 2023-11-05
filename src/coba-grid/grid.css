@@ -1,0 +1,27 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3fr 1fr;
+  width: 500px;
+  height: 400px;
+}
+
+img {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid-container > div {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding:20px;
+}
